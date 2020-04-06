@@ -7,7 +7,7 @@ import { selectCartItemsCount } from '../../redux/cart/cart.selectors';
 import { createStructuredSelector } from 'reselect'; 
 
 import './cart-icon.styles.scss';
-import { statement } from '@babel/template';
+// import { statement } from '@babel/template';
 
 const CartIcon = ({ toggleCartHidden, itemCount }) => (
     <div className='cart-icon' onClick={toggleCartHidden}>

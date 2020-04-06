@@ -7,7 +7,7 @@ import rootReducer from './root-reducer';
 
 const middlwares = [];
 
-if (process.env.NODE_ENV == 'development'){
+if (process.env.NODE_ENV === 'development'){
     middlwares.push(logger);
 }
 
